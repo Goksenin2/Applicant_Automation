@@ -32,7 +32,7 @@ cp .env.example .env                  # add MONDAY_API_TOKEN and ANTHROPIC_API_K
 cp config.example.yaml config.yaml
 ```
 
-- **monday token:** avatar → Developers → My access tokens. It acts as you; keep it secret.
+- **monday token:** avatar → Developers → **API token** (left sidebar) → Show → Copy. It acts as you; keep it secret.
 - **Anthropic key:** console.anthropic.com → API keys (needs a card; it costs a few pounds per round).
 - **Board ID:** the number in the board URL (`.../boards/<id>`).
 
