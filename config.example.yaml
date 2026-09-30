@@ -1,0 +1,35 @@
+# 180DC Screener config. Copy to config.yaml and fill in the IDs.
+# Run `python list_columns.py` to see every column's ID, title and type.
+
+board_id: 1234567890            # from the board URL: .../boards/<this number>
+
+# Scoring scale the team uses.
+score_min: 1
+score_max: 5
+
+# Where the evidence comes from.
+cv_column: files                 # the File column holding the CV
+questions:                       # application-question columns -> the question text
+  long_text: "Why do you want to join 180 Degrees Consulting?"
+  long_text_1: "Describe a problem you solved and how you approached it."
+  long_text_2: "What does social impact mean to you?"
+
+# Score columns the script writes (must be Numbers columns).
+score_columns:
+  skills_experience: numbers
+  academic_ability: numbers_1
+  cv_background: numbers_2
+  problem_solving: numbers_3
+  social_impact: numbers_4
+
+# "Total (initial screening)". If it's a Formula column that already averages
+# the five scores, set this to null and monday calculates it itself.
+total_column: numbers_5
+
+# Columns you add to the board for the tool.
+notes_column: long_text_ai       # Long Text: per-criterion justifications
+status_column: status_ai         # Status: "AI scored" / "Needs human review"
+status_done_label: "AI scored"
+status_review_label: "Needs human review"
+
+model: claude-opus-5-5

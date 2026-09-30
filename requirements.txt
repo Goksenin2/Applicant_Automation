@@ -1,0 +1,7 @@
+anthropic>=1.10
+pydantic>=2
+python-docx>=1.1
+python-dotenv>=1.0
+PyYAML>=6
+requests>=2.31
+pytest>=8
