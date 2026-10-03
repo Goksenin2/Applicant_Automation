@@ -20,10 +20,11 @@ Evidence: CV (degree, grades, modules, awards).
 Do not favour particular universities or subjects beyond what is relevant to consulting.
 
 ## CV & background (`cv_background`)
-Evidence: the CV as a document.
-- 9–10: Clear, well-structured, concise, achievement-focused (quantified results), no errors.
-- 5–6: Readable and complete, but duties rather than achievements, or some formatting problems.
-- 1–2: Disorganised, very sparse, or has many errors.
+Evidence: the content of the CV: what the applicant has done and how well it fits the role(s) they applied for.
+Judge substance, not layout. Only mark down for presentation if the CV is genuinely hard to read or the English is poor enough to obscure meaning.
+- 9–10: Background clearly aligned with the role applied for (e.g. prior consulting, recruitment, partnerships or finance work as relevant), with real achievements.
+- 5–6: Relevant background, but thin, early-stage, or only loosely connected to the role.
+- 1–2: Very little content, or nothing connecting the background to the role.
 
 ## Problem solving & critical thinking (`problem_solving`)
 Evidence: mainly the application answers.
@@ -36,6 +37,9 @@ Evidence: answers plus volunteering, charity, or community work on the CV.
 - 9–10: Shows real understanding of social impact and a track record of acting on it (volunteering, NGO or social-enterprise work, initiatives they started).
 - 5–6: Sincere interest with a little supporting evidence.
 - 1–2: No evidence of interest beyond generic statements.
+
+## Role fit
+The application lists up to three roles. Weigh experience and background against the first-choice role mainly, and mention fit for the other choices when relevant.
 
 ## Fairness rules
 - Ignore name, gender, age, nationality, ethnicity, religion, disability, photo and any other protected characteristic.
