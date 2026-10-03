@@ -2,7 +2,7 @@
 
 AI-assisted initial screening for 180 Degrees Consulting recruitment. It reads each applicant
 on the monday.com recruitment board, scores their CV and application answers against the
-five screening criteria with Claude, and writes the scores, a total, and a short
+six screening criteria with Claude, and writes the scores, a total, and a short
 justification back to the board.
 
 **It ranks applicants. It does not decide.** A person makes every interview/reject decision,
@@ -13,9 +13,9 @@ applicants. LinkedIn is not scraped (that breaks LinkedIn's terms).
 
 1. Reads the item from the board (answers + CV file).
 2. Downloads the CV to a temp folder (deleted at the end of the run).
-3. Sends CV + answers + `rubric.md` to Claude and gets a 1–5 score and a one-line reason
+3. Sends CV + answers + `rubric.md` to Claude and gets a 1–10 score and a one-line reason
    for each criterion, plus a "needs human review" flag.
-4. Writes the 5 scores, Total (unless it's a formula column), the notes and a status
+4. Writes the 6 scores, Total (unless it's a formula column), the notes and a status
    (`AI scored` / `Needs human review`) back to monday.
 5. Saves everything to `output/scores_<timestamp>.csv` (personal data, don't share or commit).
 

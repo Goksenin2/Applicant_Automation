@@ -9,6 +9,7 @@ CRITERIA = {
     "cv_background": "CV & background",
     "problem_solving": "Problem solving & critical thinking",
     "social_impact": "Social impact",
+    "reason_for_applying": "Reason for applying",
 }
 
 
@@ -23,6 +24,7 @@ class Assessment(BaseModel):
     cv_background: CriterionScore
     problem_solving: CriterionScore
     social_impact: CriterionScore
+    reason_for_applying: CriterionScore
     needs_human_review: bool
     review_reason: str
 

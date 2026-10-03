@@ -21,7 +21,7 @@ CFG = {
 }
 
 
-def make_assessment(scores=(5, 4, 3, 2, 1), review=False) -> dict:
+def make_assessment(scores=(5, 4, 3, 2, 1, 3), review=False) -> dict:
     data = {k: {"score": s, "reason": f"reason {k}"} for k, s in zip(CRITERIA, scores)}
     return data | {"needs_human_review": review, "review_reason": "odd" if review else ""}
 
@@ -100,6 +100,6 @@ def test_scorer_request_and_parse():
 
 
 def test_scorer_rejects_out_of_range():
-    scorer = _scorer_with_response(make_assessment(scores=(9, 4, 3, 2, 1)), [])
+    scorer = _scorer_with_response(make_assessment(scores=(9, 4, 3, 2, 1, 3)), [])
     with pytest.raises(ScoringError):
         scorer.score("Jane", {}, None)

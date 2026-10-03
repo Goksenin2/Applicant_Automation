@@ -38,6 +38,12 @@ Evidence: answers plus volunteering, charity, or community work on the CV.
 - 5–6: Sincere interest with a little supporting evidence.
 - 1–2: No evidence of interest beyond generic statements.
 
+## Reason for applying (`reason_for_applying`)
+Evidence: the motivation answer ("What motivates you to join our team…").
+- 9–10: Specific, genuine motivation tied to 180DC's mission and the chosen role, backed by their own experience, with a clear idea of what they would contribute.
+- 5–6: Sincere but fairly generic; could be written for most societies or roles.
+- 1–2: Empty, copied boilerplate, or doesn't address why they want to join.
+
 ## Role fit
 The application lists up to three roles. Weigh experience and background against the first-choice role mainly, and mention fit for the other choices when relevant.
 

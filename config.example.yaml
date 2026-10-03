@@ -21,9 +21,10 @@ score_columns:
   cv_background: numbers_2
   problem_solving: numbers_3
   social_impact: numbers_4
+  reason_for_applying: numbers_6
 
 # "Total (initial screening)". If it's a Formula column that already averages
-# the five scores, set this to null and monday calculates it itself.
+# the six scores, set this to null and monday calculates it itself.
 total_column: numbers_5
 
 # Columns you add to the board for the tool.
