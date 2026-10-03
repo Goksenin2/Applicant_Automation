@@ -101,8 +101,12 @@ class Scorer:
                 raise ScoringError(f"{key} score {s} outside {self.score_min}-{self.score_max}")
 
 
+# The board's "Total (Initial Screening)" averages these five; "Reason for applying" is scored separately.
+TOTAL_CRITERIA = [k for k in CRITERIA if k != "reason_for_applying"]
+
+
 def total(assessment: Assessment) -> float:
-    return round(sum(getattr(assessment, k).score for k in CRITERIA) / len(CRITERIA), 2)
+    return round(sum(getattr(assessment, k).score for k in TOTAL_CRITERIA) / len(TOTAL_CRITERIA), 2)
 
 
 def notes(assessment: Assessment) -> str:

@@ -24,7 +24,7 @@ score_columns:
   reason_for_applying: numbers_6
 
 # "Total (initial screening)". If it's a Formula column that already averages
-# the six scores, set this to null and monday calculates it itself.
+# the five scores (not Reason for applying), set this to null and monday calculates it itself.
 total_column: numbers_5
 
 # Columns you add to the board for the tool.
